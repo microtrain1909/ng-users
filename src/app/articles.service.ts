@@ -21,4 +21,8 @@ export class ArticlesService {
     return this.http.get<Article[]>(this.url);
   }
 
+  getArticle(slug: string): Observable<Article> {
+    return this.http.get<Article>(`${this.url}/${slug}`);
+  }
+
 }
