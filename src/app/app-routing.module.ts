@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: 'articles', component: ArticlesComponent },
   { path: 'articles/view/:slug', component: ArticleViewComponent },
   { path: 'articles/create', component: ArticleCreateComponent },
-  { path: 'articles/edit/:id', component: UserEditComponent },
+  { path: 'articles/edit/:id', component: ArticleEditComponent },
 ];
 
 
