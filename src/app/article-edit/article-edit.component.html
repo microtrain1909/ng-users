@@ -24,7 +24,8 @@
     <div *ngIf="errors.body">{{errors.body.message}}</div>
   </div>
   
-  <button [routerLink]="['/articles/edit/', article._id]">Edit</button>
-  <button (click)="deleteArticle(article._id)">Delete</button>
+  <!-- <button [routerLink]="['/articles/edit/', article._id]">Edit</button> -->
+  <!-- <button (click)="deleteArticle(article._id)">Delete</button> -->
+  <button type="submit">Submit</button>
 
 </form>
